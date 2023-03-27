@@ -1,0 +1,8 @@
+dependencies:
+  - python=3.9
+  - pip:
+    - domino-code-assist
+    - python-dotenv
+    - dominodatalab-data
+    - snowflake-connector-python
+    - redshift-connector

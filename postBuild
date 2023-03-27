@@ -1,0 +1,6 @@
+#!/bin/bash
+mv mybinder/env mybinder/home/.env
+mkdir mybinder/datasets
+find /srv/conda/envs/notebook/lib/python3.9/site-packages/plotly/package_data/datasets -name \*.csv.gz -exec cp {} mybinder/datasets/ \;
+find datasets -name \*.csv.gz -exec gunzip {} \;
+cp /srv/conda/envs/notebook/lib/python3.9/site-packages/domino_code_assist/data/small_molecule_drugbank.csv mybinder/datasets/

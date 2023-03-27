@@ -1,0 +1,4 @@
+DOMINO_CODE_ASSIST_DEV=true
+
+DOMINO_WORKING_DIR=/home/jovyan/mybinder/home
+DOMINO_DATASETS_DIR=/home/jovyan/mybinder/datasets
